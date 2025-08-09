@@ -1,0 +1,5 @@
+ccxt>=4.0.0
+pandas
+numpy
+ta
+requests
