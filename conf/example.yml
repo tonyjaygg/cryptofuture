@@ -1,0 +1,7 @@
+symbol: BTCUSDT
+strategy:
+  name: MOMENTUM_EMA
+  fast: 20
+  slow: 50
+risk:
+  max_daily_loss_pct: 0.02

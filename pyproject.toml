@@ -1,0 +1,30 @@
+[project]
+name = "cryptofuture"
+version = "0.1.0"
+description = "Modular MEXC futures trading bot"
+requires-python = ">=3.11"
+authors = [{name="Quant", email="quant@example.com"}]
+dependencies = [
+    "numpy",
+    "pandas",
+    "pandas_ta",
+    "pydantic",
+    "httpx",
+    "websockets",
+    "loguru",
+    "python-dotenv",
+    "pyyaml",
+    "SQLModel",
+    "tenacity",
+    "schedule",
+    "fastapi",
+    "uvicorn",
+    "matplotlib",
+    "pytest",
+    "coverage",
+    "ccxt",
+]
+[tool.pytest.ini_options]
+minversion = "7.0"
+addopts = "-ra"
+pythonpath = ["."]
